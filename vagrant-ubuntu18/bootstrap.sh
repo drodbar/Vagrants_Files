@@ -11,8 +11,6 @@ apt-get install -q -y apache2
 
 # configuration files live at /etc/apache2/
 # rm -rf /var/www
-mkdir -p /vagrant/www
-ln -fs /vagrant/www /var/www
 
 ################################################################################
 
